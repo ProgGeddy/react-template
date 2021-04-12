@@ -16,8 +16,11 @@
   "license": "ISC",
   "husky": {
     "hooks": {
-      "pre-commit": "echo \"[Husky] pre-commit\" && npm run lint && npm run format"
+      "pre-commit": "npm run lint && npm run format && git add -A ."
     }
+  },
+  "lint-staged": {
+	"*": "prettier --write"
   },
   "devDependencies": {
     "@babel/core": "^7.13.15",
@@ -33,6 +36,7 @@
     "eslint-plugin-react": "^7.23.2",
     "eslint-plugin-react-hooks": "^4.2.0",
     "husky": "^6.0.0",
+    "lint-staged": "^10.5.4",
     "prettier": "^2.2.1",
     "webpack": "^5.31.2",
     "webpack-cli": "^4.6.0",
