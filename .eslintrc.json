@@ -20,6 +20,7 @@
   "plugins": ["react", "import", "@typescript-eslint"],
   "rules": {
     "sort-imports": "error",
-    "import/first": "error"
+    "import/first": "error",
+    "no-multiple-empty-lines": ["error", { "max": 1, "maxBOF": 0, "maxEOF": 0 }]
   }
 }
