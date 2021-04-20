@@ -11,17 +11,17 @@
     "lint:fix": "eslint --fix .",
     "format": "prettier --write \"**/*.+(js|jsx|tsx|html|json|yml|yaml|css|md|vue)\""
   },
-  "keywords": [],
-  "author": "Geddy Lee Israel",
-  "license": "ISC",
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint && npm run format && git add -A ."
+      "pre-commit": "echo \"[Husky] pre-commit\""
     }
   },
   "lint-staged": {
-	"*": "prettier --write"
-  },
+    "*": "prettier --write"
+    },
+  "keywords": [],
+  "author": "Geddy Lee Israel",
+  "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.13.15",
     "@babel/preset-env": "^7.13.15",
