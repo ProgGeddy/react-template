@@ -1,4 +1,5 @@
-
+import React from 'react';
+import ReactDOM from 'react-dom';
 
 const App = () => {
   return (
@@ -9,7 +10,7 @@ const App = () => {
   );
 };
 
-import React from 'react';
-import ReactDOM from 'react-dom';
-
 ReactDOM.render(<App />, document.getElementById('root'));
+
+
+
