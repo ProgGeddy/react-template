@@ -5,7 +5,6 @@
 ## Installation
 
 Clone the repository.
-Run:
 
 ```sh
 $ cd react-template
@@ -19,7 +18,7 @@ At this point you are ready to begin building your own React app.
 
 ## Release History
 
-- 0.0.1
+- 1.0.0
   - Work in progress
 
 ## Meta
