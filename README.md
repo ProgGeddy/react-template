@@ -18,7 +18,8 @@ $ npm run start
 ```
 
 The app should launch in a browser, but if it does not navigate to http://localhost:3000/
-At this point, you are ready to begin building your own React app.
+
+At this point you are ready to begin building your own React app.
 
 ## Release History
 
@@ -29,7 +30,7 @@ At this point, you are ready to begin building your own React app.
 
 Geddy Lee Israel – geddy.israel@gmail.com
 
-Distributed under the MIT license. See LICENSE for more information.
+Distributed under the MIT license. See `LICENSE` for more information.
 
 https://github.com/ProgGeddy/react-template
 
@@ -49,7 +50,3 @@ https://github.com/ProgGeddy/react-template
 [travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
 [travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
 [wiki]: https://github.com/yourname/yourproject/wiki
-
-```
-
-```
