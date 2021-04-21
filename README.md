@@ -2,6 +2,8 @@
 
 > An alterative to building an empty React app via create-react-app, react-template creates a basic React project with Webpack, Babel, Typescript, Eslint, Prettier, and GitHooks ensuring no future need to eject and standardizing the development process.
 
+![GitHub](https://img.shields.io/github/license/proggeddy/react-template)
+
 ## Installation
 
 Clone the repository.
