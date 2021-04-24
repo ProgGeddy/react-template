@@ -10,18 +10,6 @@
   // webpackBootstrap
   /******/ 'use strict';
   /******/ var __webpack_modules__ = {
-    /***/ './src/app.js':
-      /*!********************!*\
-  !*** ./src/app.js ***!
-  \********************/
-      /***/ (__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-        eval(
-          '__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");\n\n\n\nvar App = function App() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "Hello World!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "From inside src/app.js, which is bundled to public/bundle.js"));\n};\n\nreact_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(App, null), document.getElementById("root"));\n\n//# sourceURL=webpack://react-template/./src/app.js?',
-        );
-
-        /***/
-      },
-
     /***/ './node_modules/object-assign/index.js':
       /*!*********************************************!*\
   !*** ./node_modules/object-assign/index.js ***!
@@ -130,6 +118,30 @@
         /***/
       },
 
+    /***/ './src/App.tsx':
+      /*!*********************!*\
+  !*** ./src/App.tsx ***!
+  \*********************/
+      /***/ (__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+        eval(
+          '__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");\n\r\nfunction App() {\r\n    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null,\r\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "Hello World!"),\r\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "From inside src/app.js, which is bundled to public/bundle.js")));\r\n}\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);\r\n\n\n//# sourceURL=webpack://react-template/./src/App.tsx?',
+        );
+
+        /***/
+      },
+
+    /***/ './src/index.tsx':
+      /*!***********************!*\
+  !*** ./src/index.tsx ***!
+  \***********************/
+      /***/ (__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+        eval(
+          '__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./App */ "./src/App.tsx");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");\n\r\n\r\n\r\nreact_dom__WEBPACK_IMPORTED_MODULE_2__.render(react__WEBPACK_IMPORTED_MODULE_1__.createElement(react__WEBPACK_IMPORTED_MODULE_1__.StrictMode, null,\r\n    react__WEBPACK_IMPORTED_MODULE_1__.createElement(_App__WEBPACK_IMPORTED_MODULE_0__.default, null)), document.getElementById(\'root\'));\r\n\n\n//# sourceURL=webpack://react-template/./src/index.tsx?',
+        );
+
+        /***/
+      },
+
     /******/
   }; // The module cache
   /************************************************************************/
@@ -153,9 +165,29 @@
     /******/
     /******/ /******/ return module.exports;
     /******/
-  } /* webpack/runtime/make namespace object */
+  } /* webpack/runtime/define property getters */
   /******/
   /************************************************************************/
+  /******/ /******/ (() => {
+    /******/ // define getter functions for harmony exports
+    /******/ __webpack_require__.d = (exports, definition) => {
+      /******/ for (var key in definition) {
+        /******/ if (__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
+          /******/ Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+          /******/
+        }
+        /******/
+      }
+      /******/
+    };
+    /******/
+  })(); /* webpack/runtime/hasOwnProperty shorthand */
+  /******/
+  /******/ /******/ (() => {
+    /******/ __webpack_require__.o = (obj, prop) => Object.prototype.hasOwnProperty.call(obj, prop);
+    /******/
+  })(); /* webpack/runtime/make namespace object */
+  /******/
   /******/ /******/ (() => {
     /******/ // define __esModule on exports
     /******/ __webpack_require__.r = (exports) => {
@@ -171,7 +203,7 @@
   /******/
   /************************************************************************/
   /******/
-  /******/ /******/ /******/ /******/ var __webpack_exports__ = __webpack_require__('./src/app.js');
+  /******/ /******/ /******/ /******/ var __webpack_exports__ = __webpack_require__('./src/index.tsx');
   /******/
   /******/
 })();
